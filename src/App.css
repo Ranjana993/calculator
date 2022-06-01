@@ -2,37 +2,68 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(65, 22, 101);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ul>li {
+  list-style: none;
+  background-color: rgb(76, 90, 91);
   color: white;
+  height: 20px;
+  width: 5rem;
+  text-align: center;
+  font-size: 14px;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 90%;
 }
 
-.App-link {
-  color: #61dafb;
+ul>li:hover {
+  background-color: white;
+  color: rgb(14, 116, 123);
+  box-shadow: 1px 1px 2px -3px lightgray;
+  font-weight: bolder;
+  font-size: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  display: flex;
+  gap: 10px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.563);
+  margin-top: 6rem;
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  top: 75px;
+  display: inline-block;
+  margin-top: 90px;
+  box-shadow: 1px 1px 26px -6px;
+  ;
+}
+
+.inner__cal__ui {
+  margin: 0.5rem 9px;
+  align-items: center;
+  padding-top: 37px;
+  margin-left: -28px;
+}
+
+p{
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: -10px;
+  text-align: right;
+  margin-right: 22px;
+}
+
+.lastBtn>li {
+  width: 92px;
+  border-radius: 40px;
 }
